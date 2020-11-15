@@ -1,0 +1,206 @@
+body{
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: sans-serif;
+    background-color: #b0b0b0;
+}
+.titlebar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #362390;
+    
+}
+
+.leftside a{
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-left:10px;
+}
+.leftside label{
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-left:10px;
+}
+.leftside a:hover{
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-left:10px;
+    border-bottom:1px solid white;
+    transition:0.5s;
+}
+.rightside a{
+    color :whitesmoke;
+    font-size:20px;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+.rightside a:hover{
+    color:white;
+    font-size:20px;
+    text-decoration:none;
+    transition:0.5s;
+    border-bottom:2px solid white;
+}
+form{
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:black;
+    color:white;
+    font-size:20px;
+    
+}
+form h1{
+    text-align:center ;
+}
+.name{
+    padding:7px;
+}
+.container{
+    margin-left: 130px;
+}
+.name input{
+    height:20%;
+    width:50%;
+    background:none;
+    outline:none;
+    border-bottom:2px solid #362390;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:white;
+    font-size:20px;
+    margin-left:50px;
+}
+.name input:hover{
+    width:60%;
+    transition: 0.8s;
+}
+
+.gender{
+    padding:7px;
+}
+.gender input{
+    margin-left:70px;
+
+}
+.phone{
+    padding:7px;
+    
+}
+.phone input{
+    width:50%;
+    color:white;
+    margin-left:15px;
+    background:none;
+    font-size:20px;
+    border-bottom:2px solid #362390;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    outline:none;
+}
+.phone input:hover{
+    width:60%;
+    transition:0.8s;
+}
+.email
+{
+    padding:7px;
+    
+}
+.email input{
+    height:15%;
+    width:50%;
+    color:white;
+    margin-left:85px;
+    background:none;
+    font-size:20px;
+    border-bottom:2px solid #362390;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    outline:none;
+}
+.email input:hover{
+    width:60%;
+    transition:0.8s;
+}
+.address{
+    padding:7px;
+    
+}
+.address input{
+    height:30%;
+    width:50%;
+    color:white;
+    margin-left:59px;
+    background:none;
+    font-size:20px;
+    border-bottom:2px solid #362390;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    outline:none;
+}
+.address input:hover{
+    width:60%;
+    transition:0.8s;
+}  
+
+.disease{
+    padding:7px;
+    
+}
+.disease input{
+    height:20%;
+    width:50%;
+    color:white;
+    margin-left:69px;
+    background:none;
+    font-size:20px;
+    border-bottom:2px solid #362390;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    outline:none;
+}
+.disease input:hover{
+    width:60%;
+    transition:0.8s;
+}
+.Register .submit{
+    padding:7px;
+    margin-left:150px;
+    margin-top:30px;
+    font-size:20px;
+    width:30%;
+    background:none;
+    border-color: #362390;
+    color:white;
+}
+.Register input:hover{
+    background-color: #362390;
+    transition:0.8s;
+}
+.firstname{
+    margin-left:10px;
+}
+.lastname{
+    margin-left:10px;
+    height:30px;
+}
+.input{
+    margin-top:10px;
+}
